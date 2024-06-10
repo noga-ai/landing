@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         typeSpeed: 30,
         backSpeed: 10,
         showCursor: false,
-        startDelay: 6000,
+        startDelay: 7000,
         loop: false,
     });
 
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         typeSpeed: 30,
         backSpeed: 10,
         showCursor: false,
-        startDelay: 14000,
+        startDelay: 15000,
         loop: false,
     });
 
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         typeSpeed: 30,
         backSpeed: 10,
         showCursor: false,
-        startDelay: 22000,
+        startDelay: 23000,
         loop: false,
     });
 
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         typeSpeed: 30,
         backSpeed: 10,
         showCursor: false,
-        startDelay: 29000,
+        startDelay: 30000,
         loop: false,
     });
 });
