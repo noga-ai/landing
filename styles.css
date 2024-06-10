@@ -32,11 +32,38 @@ body {
 
 h1 {
     margin-bottom: 20px;
+    font-size: 5rem;
+}
+
+h2 {
     font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+}
+
+.section-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+
+.section-list li {
+    width: calc(100% / 2);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 
+.section-list li h2 {
+    margin-bottom: 10px;
+}
