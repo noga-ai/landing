@@ -22,7 +22,7 @@ body {
 
 
 .subtitle-container {
-    max-width: 750px;
+    max-width: 1050px;
     width: 100%;
     margin: 0 auto;
   }
@@ -55,12 +55,12 @@ p {
 }
 
 .title {
-  font-size: 40px;
+  font-size: 50px;
   color: #ffcc00;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .subtitle {
-  font-size: 22px;
+  font-size: 32px;
   margin-bottom: 80px; 
 }

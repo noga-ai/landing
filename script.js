@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     new Typed('#subtitle', {
-        strings: ["We specialize in creating AI-powered data scientists. Our mission is to do it so well so that you can reach for loftier goals, so much faster."],
+        strings: ["We specialize in creating AI-powered Data Scientists. Our mission is to do it so well so that you can reach for loftier goals, so much faster."],
         typeSpeed: 30,
         backSpeed: 10,
         showCursor: false,
