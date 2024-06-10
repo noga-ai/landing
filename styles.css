@@ -1,10 +1,11 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     background-color: #121212;
     color: #ffffff;
+    margin: 0;
 }
 
-.section {
+.landing-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,6 +14,29 @@ body {
     text-align: center;
 }
 
-h1 {
+.main-headline {
+    font-size: 3rem;
     margin-bottom: 20px;
 }
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
