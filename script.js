@@ -1,45 +1,47 @@
+
 document.addEventListener('DOMContentLoaded', function() {
-    new Typed('#section1-text', {
-        strings: ["At Noga, we specialize in creating AI-powered data scientists. Our mission is to do it so well so that you can reach for loftier goals, so much faster."],
+    new Typed('#subtitle', {
+        strings: ["We specialize in creating AI-powered data scientists. Our mission is to do it so well so that you can reach for loftier goals, so much faster."],
         typeSpeed: 30,
         backSpeed: 10,
         showCursor: false,
-        backdelay: 1000,
+        startDelay: 0,
+        loop: false,
     });
 
     new Typed('#section2-text', {
-        strings: ["Noga is in early access as we expand our capacity. To leverage Noga, join our waitlist or contact us at info@getnoga.com"],
+        strings: ["We don't believe in one-click AI wonders. By keeping data teams involved in the process, AI solutions create much more impact and value. We have designed our agents to empower users."],
         typeSpeed: 30,
         backSpeed: 10,
         showCursor: false,
-        backdelay: 1000,
+        startDelay: 6000,
         loop: false,
     });
 
     new Typed('#section3-text', {
-        strings: ["Every company is different, which is why Noga is building integrations to bridge domain expertise and learn over time based on internal company assets and external web sources. This fusion of knowledge enhances the accuracy and reliability of your insights."],
+        strings: ["There is no one-agent-to-fit-all, that's why our technology allows integrations with company assets to achieve domain expertise. Yes, our agents can also scout the web if allowed."],
         typeSpeed: 30,
         backSpeed: 10,
         showCursor: false,
-        backdelay: 1000,
+        startDelay: 14000,
         loop: false,
     });
 
     new Typed('#section4-text', {
-        strings: ["We understand the critical importance of data sensitivity and security. That’s why Noga is powered by our own proprietary fine-tuned language model behind the hood, ensuring that no data is sent to third parties."],
+        strings: ["Your data and requests are sensitive, that’s why we are building our own proprietary fine tuned LLM, ensuring that no data is sent to third parties."],
         typeSpeed: 30,
         backSpeed: 10,
         showCursor: false,
-        backdelay: 1000,
+        startDelay: 22000,
         loop: false,
     });
 
     new Typed('#section5-text', {
-        strings: ["By keeping data teams involved in the process, we ensure that AI solutions are not only technically sound but also ethically aligned and contextually appropriate. This collaborative model leverages the best of both human intuition and machine efficiency."],
+        strings: ["Noga is in early access as we expand our capacity. To leverage Noga, contact us at <strong>info@getnoga.com</strong>"],
         typeSpeed: 30,
         backSpeed: 10,
         showCursor: false,
-        backdelay: 1000,
+        startDelay: 29000,
         loop: false,
     });
 });
